@@ -1,7 +1,9 @@
 # test2
 #copy
 gitのダウンロード・インストール
+
 https://git-scm.com/download/win
+
 ※40MBほどあります
 
 インストールは、何も考えずに次へでOKです
@@ -19,23 +21,37 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDtSkK3D/Ab9GmyGiqAbeunCvBRin47GqbDmMDFddmH
 =======
 
 githubアカウントを取得
+
 ログイン後、右上のマークから「Settings」選択
+
 左のタブから「SSH and GPG Keys」選択
+
 「New SSH Key」ボタン押下
+
 titleはお好きにどうぞ（Komiyama Serface PC）
 
 左上の猫ロゴ押す
+
 左のRepositoriesのNewボタン
+
 リポジトリ作る
+
 例：https://github.com/neugate/NKSOL
 
 デスクトップでフォルダを作って、gitコマンド
+
 ※ここは聞いてね
+
 echo "# NKSOL" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin git@github.com:neugate/NKSOL.git
+
 git push -u origin master
 
 晴れてGitが使えます。
